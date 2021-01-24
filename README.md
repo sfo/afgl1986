@@ -1,2 +1,3 @@
-# ariadne
+# Ariadne
+
 Standard radiation atmospheres
