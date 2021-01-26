@@ -27,7 +27,7 @@ The tabulated quantities are
 * carbon monoxide (CO) volume fraction (ppmv)
 * methane (CH4) volume fraction (ppmv)
 
-Tables 2a-d provide the volume mixing ratios of 28 molecules. These constituent profiles are compatible with model 6 (`U.S. Standard`), except for the CO2 and O2 profiles which are compatible with all models (1-6).
+Tables 2a-d provide the volume mixing ratios of 28 molecules, including H2O, O3, N2O, CO and CH4. These constituent profiles are compatible with model 6 (`U.S. Standard`), except for the CO2 and O2 profiles which are compatible with all models (1-6).
 
 ## Format
 
@@ -38,6 +38,9 @@ The tables are provided in comma-separated values (CSV) files. There is one file
 I do not provide the units of the tabulated quantities in the CSV files. The units are the same as those given in the AFGL report.
 
 ## Use with Python
+
+For example, read the table 1a into a [pandas.DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) with:
+
 
 ```python
 import pandas as pd
