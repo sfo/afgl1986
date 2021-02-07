@@ -17,17 +17,21 @@ The AFGL (1986) report divides its table 1 and 2 into several sub-tables, tables
 
 The tabulated quantities are
 
-* altitude (km)
-* pressure (mb)
-* temperature (K)
-* number density (cm^-3)
-* water (H2O) volume fraction (ppmv)
-* ozone (O3) volume fraction (ppmv)
-* nitrogen oxide (N2O) volume fraction (ppmv)
-* carbon monoxide (CO) volume fraction (ppmv)
-* methane (CH4) volume fraction (ppmv)
+| Quantity                              | Symbol | Units   |
+| :------------------------------------ | :----: | :-----: |
+| Altitude                              | `z`    | `km`    |
+| Pressure                              | `p`    | `mb`    |
+| Temperature                           | `t`    | `K`     |
+| Number density                        | `n`    | `cm^-3` |
+| Water (H2O) volume fraction           | `H2O`  | `ppmv`  |
+| Ozone (O3) volume fraction            | `O3`   | `ppmv`  |
+| Nitrogen oxide (N2O) volume fraction  | `N2O`  | `ppmv`  |
+| Carbon monoxide (CO) volume fraction  | `CO`   | `ppmv`  |
+| Methane (CH4) volume fraction         | `CH4`  | `ppmv`  |
 
 Tables 2a-d provide the volume mixing ratios of 28 molecules, including H2O, O3, N2O, CO and CH4. These constituent profiles are compatible with model 6 (`U.S. Standard`), except for the CO2 and O2 profiles which are compatible with all models (1-6).
+The complete list of molecules included in table 2 is given here: `H2O`,`CO2`,`O3`,`N2O`,`CO`,`CH4`,`O2`,`NO`,`SO2`,`NO2`,`NH3`,`HNO3`,`OH`,`HF`,`HCl`,`HBr`,`HI`,`ClO`,`OCS`,`H2CO`,`HOCl`,`N2`,`HCN`,`CH3Cl`,`H2O2`,`C2H2`,`C2H6`,`PH3`.
+These molecules match the [28 first molecules in the HITRAN database](https://hitran.org/docs/molec-meta/).
 
 ## Format
 
@@ -35,12 +39,11 @@ The tables are provided in comma-separated values (CSV) files. There is one file
 
 ## Units
 
-I do not provide the units of the tabulated quantities in the CSV files. The units are the same as those given in the AFGL report.
+I do not provide the units of the tabulated quantities in the CSV files. The units are the same as those given in the AFGL report. They are indicated in the table above.
 
 ## Use with Python
 
 For example, read the table 1a into a [pandas.DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) with:
-
 
 ```python
 import pandas as pd
