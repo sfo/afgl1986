@@ -4,7 +4,8 @@ This repository provides an electronic version of tables 1 and 2 of the AFGL rep
 
 ## Structure
 
-The AFGL (1986) report divides its table 1 and 2 into several sub-tables, tables 1a-f (6 tables) and tables 2a-d (4 tables), respectively. Tables 1a-f correspond to the six reference model atmospheric profiles defined in the report:
+The AFGL (1986) report divides its tables 1 and 2 into several sub-tables, i.e., tables 1a-f (6 tables) and tables 2a-d (4 tables), respectively.
+Tables 1a-f correspond to the six reference model atmospheric profiles defined in the report:
 
 | Table | Model | Name                 |
 | :---: | :---: | :------------------  |
@@ -23,19 +24,20 @@ The tabulated quantities are
 | Pressure                              | `p`    | `mb`    |
 | Temperature                           | `t`    | `K`     |
 | Number density                        | `n`    | `cm^-3` |
-| Water (H2O) volume fraction           | `H2O`  | `ppmv`  |
-| Ozone (O3) volume fraction            | `O3`   | `ppmv`  |
-| Nitrogen oxide (N2O) volume fraction  | `N2O`  | `ppmv`  |
-| Carbon monoxide (CO) volume fraction  | `CO`   | `ppmv`  |
-| Methane (CH4) volume fraction         | `CH4`  | `ppmv`  |
+| Constituent volume fraction           |        | `ppmv`  |
 
-Tables 2a-d provide the volume mixing ratios of 28 molecules, including H2O, O3, N2O, CO and CH4. These constituent profiles are compatible with model 6 (`U.S. Standard`), except for the CO2 and O2 profiles which are compatible with all models (1-6).
+The symbol used for the constituents volume fraction is the chemical formula of the constituent, i.e., `H2O` for water wapor, `CO2` for carbon dioxide, and so on.
+All volume fraction values are provided in `ppmv` (*parts per million*) units.
+Tables 2a-d provide the volume mixing ratios of 28 molecules, including `H2O`, `O3`, `N2O`, `CO` and `CH4`.
+These constituent profiles are compatible with model 6 (`U.S. Standard`), except for the `CO2` and `O2` profiles which are compatible with all models (1-6).
 The complete list of molecules included in table 2 is given here: `H2O`,`CO2`,`O3`,`N2O`,`CO`,`CH4`,`O2`,`NO`,`SO2`,`NO2`,`NH3`,`HNO3`,`OH`,`HF`,`HCl`,`HBr`,`HI`,`ClO`,`OCS`,`H2CO`,`HOCl`,`N2`,`HCN`,`CH3Cl`,`H2O2`,`C2H2`,`C2H6`,`PH3`.
 These molecules match the [28 first molecules in the HITRAN database](https://hitran.org/docs/molec-meta/).
 
 ## Format
 
-The tables are provided in comma-separated values (CSV) files. There is one file per table. Each file has the same structure as the corresponding table of the AFGL (1986) report, i.e., first column is altitude, second column is pressure, and so on. Also, all values are given with the same number of significant digits as in the report tables, and use the same number notation (all in scientific notation except for the temperature and altitude).
+The tables are provided in comma-separated values (CSV) files.
+There is one file per table. Each file has the same structure as the corresponding table of the AFGL (1986) report, i.e., first column is altitude, second column is pressure, and so on.
+Also, all values are given with the same number of significant digits as in the report tables, and use the same number notation (all in scientific notation except for the temperature and altitude).
 
 ## Units
 
