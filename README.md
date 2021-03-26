@@ -4,8 +4,11 @@ This repository provides an electronic version of tables 1 and 2 of the AFGL rep
 
 ## Structure
 
-The AFGL (1986) report divides its tables 1 and 2 into several sub-tables, i.e., tables 1a-f (6 tables) and tables 2a-d (4 tables), respectively.
-Tables 1a-f correspond to the six reference model atmospheric profiles defined in the report:
+The AFGL (1986) report divides its tables 1 and 2 into several sub-tables, i.e., tables 1`a-f` (6 tables) and tables 2`a-d` (4 tables), respectively.
+
+### Table 1
+
+Tables 1`a-f` correspond to the six reference model atmospheric profiles defined in the report:
 
 | Table | Model | Name                 |
 | :---: | :---: | :------------------  |
@@ -26,11 +29,15 @@ The tabulated quantities are
 | Number density                        | `n`    | `cm^-3` |
 | Constituent volume fraction           |        | `ppmv`  |
 
-The symbol used for the constituents volume fraction is the chemical formula of the constituent, i.e., `H2O` for water wapor, `CO2` for carbon dioxide, and so on.
+The symbol used for the constituents volume fraction is the chemical formula of the constituent, e.g., `H2O` for water wapor.
+Each table include the volume fraction for `H2O`, `O3`, `N2O`, `CO` and `CH4`.
 All volume fraction values are provided in `ppmv` (*parts per million*) units.
-Tables 2a-d provide the volume mixing ratios of 28 molecules, including `H2O`, `O3`, `N2O`, `CO` and `CH4`.
+
+### Table 2
+
+Tables 2`a-d` provide the volume mixing ratios of 28 molecules, including `H2O`, `O3`, `N2O`, `CO` and `CH4`.
 These constituent profiles are compatible with model 6 (`U.S. Standard`), except for the `CO2` and `O2` profiles which are compatible with all models (1-6).
-The complete list of molecules included in table 2 is given here: `H2O`,`CO2`,`O3`,`N2O`,`CO`,`CH4`,`O2`,`NO`,`SO2`,`NO2`,`NH3`,`HNO3`,`OH`,`HF`,`HCl`,`HBr`,`HI`,`ClO`,`OCS`,`H2CO`,`HOCl`,`N2`,`HCN`,`CH3Cl`,`H2O2`,`C2H2`,`C2H6`,`PH3`.
+The complete list of molecules included in table 2 is given here: `H2O`, `CO2`, `O3`, `N2O`, `CO`, `CH4`, `O2`, `NO`, `SO2`, `NO2`, `NH3`, `HNO3`, `OH`, `HF`, `HCl`, `HBr`, `HI`, `ClO`, `OCS`, `H2CO`, `HOCl`, `N2`, `HCN`, `CH3Cl`, `H2O2`, `C2H2`, `C2H6` and `PH3`.
 These molecules match the [28 first molecules in the HITRAN database](https://hitran.org/docs/molec-meta/).
 
 ## Format
