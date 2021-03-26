@@ -19,19 +19,19 @@ Tables 1`a-f` correspond to the six reference model atmospheric profiles defined
 | 1e    | 5     | `Subarctic Winter`   |
 | 1f    | 6     | `U.S. Standard`      |
 
-The tabulated quantities are
+The tabulated quantities are:
 
-| Quantity                              | Symbol | Units   |
-| :------------------------------------ | :----: | :-----: |
-| Altitude                              | `z`    | `km`    |
-| Pressure                              | `p`    | `mb`    |
-| Temperature                           | `t`    | `K`     |
-| Number density                        | `n`    | `cm^-3` |
-| Constituent volume fraction           |        | `ppmv`  |
+| Quantity                 | Symbol | Units   |
+| :----------------------- | :----: | :-----: |
+| Altitude                 | `z`    | `km`    |
+| Pressure                 | `p`    | `mb`    |
+| Temperature              | `t`    | `K`     |
+| Number density           | `n`    | `cm^-3` |
+| Constituent mixing ratio |        | `ppmv`  |
 
-The symbol used for the constituents volume fraction is the chemical formula of the constituent, e.g., `H2O` for water wapor.
-Each table include the volume fraction for `H2O`, `O3`, `N2O`, `CO` and `CH4`.
-All volume fraction values are provided in `ppmv` (*parts per million*) units.
+The symbol used for the constituent mixing ratio is the chemical formula of the constituent, e.g., `H2O` for water wapor.
+Each table include the mixing ratios for `H2O`, `O3`, `N2O`, `CO` and `CH4`.
+All mixing ratio values are provided in `ppmv` (*parts per million*) units.
 
 ### Table 2
 
