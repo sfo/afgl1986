@@ -56,5 +56,5 @@ For example, read the table 1a into a [pandas.DataFrame](https://pandas.pydata.o
 
 ```python
 import pandas as pd
-df = pd.read_csv('table_1a.csv')
+df = pd.read_csv('tables/1a.csv')
 ```
