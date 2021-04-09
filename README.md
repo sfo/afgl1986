@@ -1,4 +1,4 @@
-# afgl1986
+# 📄 afgl1986
 
 This repository provides an electronic version of tables 1 and 2 of the AFGL report *AFGL-TR-86-0110 (Environmental Research Papers, No. 954)* entitled *AFGL Atmospheric Constituent Profiles (0-120km)* by G.P Anderson, S.A. Clough, F.X. Kneizys, J.H. Chetwynd and E.P. Shettle (published in 1986).
 
